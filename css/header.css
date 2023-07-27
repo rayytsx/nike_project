@@ -1,0 +1,29 @@
+.header {
+    background: #012D63;
+}
+.menu .main_page {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.menu {
+  color: #c7c7c7;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 29px;
+  
+}
+.logo {
+    width: 100px;
+    height: 60px;
+    flex-shrink: 0;
+}
