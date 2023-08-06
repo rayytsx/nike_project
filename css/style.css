@@ -1,4 +1,6 @@
+@import url(./variables.css);
 @import url(./header.css);
+@import url(./colorawe.css);
 @import url(./advantages.css);
 @import url(review.css);
 @import url(./order.css);

@@ -1,0 +1,26 @@
+.orders {
+    
+    background: url(../images/background-ord.png) center/cover no-repeat; 
+    padding: 21px 0 37px;
+}
+.orders_email {
+    width: 690px;
+    height: 60px;
+    border-radius: 50px;
+    background: #FFF;
+    padding: 13px 78px 13px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.orders_email input[type="email"] {
+    color: #959595;
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    outline: none;
+    border: none;
+    
+}

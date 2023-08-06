@@ -24,12 +24,14 @@
         </div>
         <nav>
           <ul class="menu">
-            <li class="main_page"><a class="menu_link" href="/">Main page</a></li>
-            <li class="nav_menu">Benefits</li>
-            <li class="nav_menu">Advantages</li>
-            <li class="nav_menu">Reviews</li>
-            <li class="nav_menu">Contacts</li>
-            <li class="nav_menu">Order</li>
+            <li class="nav_menu">
+              <a class="menu_link" href="/">Main page</a>
+            </li>
+            <li class="nav_menu"><a class="menu_link" href="/">Benefits</a></li>
+            <li class="nav_menu"><a class="menu_link" href="/">Advantages</a></li>
+            <li class="nav_menu"><a class="menu_link" href="/">Reviews</a></li>
+            <li class="nav_menu"><a class="menu_link" href="/">Contacts</a></li>
+            <li class="nav_menu"><a class="menu_link" href="/">Order</a></li>
           </ul>
         </nav>
       </div>
@@ -42,13 +44,13 @@
             С&R
           </div>
           <h1 class="name">ColoRawe</h1>
-          <h2>Your dream Nike</h2>
-          <p>
+          <h2 class="nike-dr">Your dream Nike</h2>
+          <p class="descr-info">
             On this site you can find custom Nike sneakers of your dreams. The
             original company can`t create such beautiful sneakers as we do. Good
             luck finding your way in the world of custom sneakers.
           </p>
-          <button class="buy_nike">Buy my Nike</button>
+          <button class="buy-btn">Buy my Nike</button>
         </div>
       </section>
       <section class="advantages">
@@ -67,7 +69,7 @@
               </p>
               <span class="reviews_date"> 25.11 </span>
               <div class="reviews_wrapper">
-                <img src="./images/john.png" alt="John Teylor">
+                <img src="./images/john.png" alt="John Teylor" />
                 <div class="reviews_box">
                   <h4 class="reviews_name">John Teylor</h4>
                   <span class="reviews_join-date">With us from 2018</span>
@@ -84,29 +86,29 @@
           <h2 class="order_title">Order</h2>
           <form action="action">
             <div class="orders_email">
-              <input placeholder="Write your email" type="text">
-              <input placeholder="Confirm" type="text">
+              <input placeholder="Write your email" type="email" />
+              <input value="Confirm" type="button" />
             </div>
-            <input placeholder="Your Country" type="text"> 
-            <input placeholder="Your City" type="text">
-            <input placeholder="Your Adress" type="text">
+            <div class="order_info"></div>
+            <input placeholder="Your Country" type="text" />
+            <input placeholder="Your City" type="text" />
+            <input placeholder="Your Adress" type="text" />
           </form>
-          <button class="order_button">
-            Order my nike
-          </button>
+          <button class="order_button">Order my nike</button>
         </div>
       </section>
     </main>
     <footer class="footer">
       <div class="container">
-        <section class="questions">
-        <h3 class="question_text">Have a question?</h3>
-        <h3 class="question_text">Have a proposal for cooperation?</h3>
-        <h3 class="question_text">Advertising questions?</h3>
-        </section>
-
-        <h4>2022 ColoRawe @All rights reserved</h4>
-        <h4>United States</h4>
+        <div class="questions">
+          <h3 class="question_text">Have a question?</h3>
+          <h3 class="question_text">Have a proposal for cooperation?</h3>
+          <h3 class="question_text">Advertising questions?</h3>
+        </div>
+        <div class="copyright">
+          <h4>2022 ColoRawe @All rights reserved</h4>
+          <h4>United States</h4>
+        </div>
       </div>
     </footer>
   </body>
