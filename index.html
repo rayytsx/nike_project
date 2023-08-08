@@ -28,11 +28,19 @@
               <a class="menu_link" href="/">Main page</a>
             </li>
             <li class="nav_menu"><a class="menu_link" href="/">Benefits</a></li>
-            <li class="nav_menu"><a class="menu_link" href="/">Advantages</a></li>
+            <li class="nav_menu">
+              <a class="menu_link" href="/">Advantages</a>
+            </li>
             <li class="nav_menu"><a class="menu_link" href="/">Reviews</a></li>
             <li class="nav_menu"><a class="menu_link" href="/">Contacts</a></li>
             <li class="nav_menu"><a class="menu_link" href="/">Order</a></li>
           </ul>
+          <div class="languange_nav_menu">
+            <ul>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
         </nav>
       </div>
     </header>
@@ -58,44 +66,112 @@
         <img src="./images/paints.png" alt="paint" />
         <img src="./images/van.png" alt="shipping" />
       </section>
-      <section class="reviews">
+      <section class="works">
         <div class="container">
-          <h2 class="reveiws_title">Reviews</h2>
+            <ul class="works_list">
+              <li class="works_item">
+                <h2 class="works_item_title">Premium <br> Quality</h2>
+                <img
+                  class="works_item_img"
+                  src="./img/Premium_Quality.png"
+                  alt="Premium_Quality"
+                />
+              </li>
+              <li class="works_item">
+                <img
+                  class="works_item_img"
+                  src="./img/Indelible_paint.png"
+                  alt="Indelible_paint"
+                />
+                <h2 class="works_item_title">Indelible <br> paint</h2>
+              </li>
+              <li class="works_item">
+                <h2 class="works_item_title">Fast <br> shipping</h2>
+                <img
+                  class="works_item_img"
+                  src="./img/fast_shoping.png"
+                  alt="Fast_shoping"
+                />
+              </li>
+            </ul>
+        </div>
+        </section>
+        <hr>
+        <section class="reviews" id="reviews"> 
+  <div class="reviews_bg">
+      <div class="container">
+          <h2 class="reviews_title">Reviews</h2>
           <ul class="reviews_list">
-            <li>
-              <p class="reviews_text">
-                Sneakers are very comfortable and well painted, nothing has worn
-                off in a year.
+            <li class="reviews_item">
+              <p class="reviews_item_descr">
+                Sneakers are very
+                comfortable and well
+                painted, nothing has
+                worn off in a year.
               </p>
               <span class="reviews_date"> 25.11 </span>
               <div class="reviews_wrapper">
-                <img src="./images/john.png" alt="John Teylor" />
-                <div class="reviews_box">
-                  <h4 class="reviews_name">John Teylor</h4>
-                  <span class="reviews_join-date">With us from 2018</span>
-                </div>
+                <div class="reviews_img">
+                    <img src="./img/John.png" alt="John Teylor" />
+                  </div>
+                  <div class="reviews_box">
+                    <h4 class="reviews_title_name">John Teylor</h4>
+                    <span class="Join_date-date">With us from 2018</span>
+                  </div>
               </div>
             </li>
-            <li></li>
-            <li></li>
+            <li class="reviews_item">
+              <p class="reviews_item_descr">
+                I'm very happy with
+                this color scheme.
+                They match all my
+                clothes.
+              </p>
+              <span class="reviews_date"> 05.01 </span>
+             <div class="reviews_wrapper">
+                <div class="reviews_img">
+                    <img src="./img/Elizabeth.png" alt="Elizabeth Garsia" />
+                  </div>
+                  <div class="reviews_box">
+                    <h4 class="reviews_title_name">Elizabeth Garsia</h4>
+                    <span class="Join_date-date">With us from 2020</span>
+                  </div>
+             </div>
+            </li>
+            <li class="reviews_item">
+              <p class="reviews_item_descr">
+                Just right if you need
+                to go to a party.
+                I use them actively,
+                the paint is super.
+              </p>
+              <span class="reviews_date"> 05.01 </span>
+              <div class="reviews_wrapper"><div class="reviews_img">
+                <img src="./img/Tom.png" alt="Tom Maquare" />
+              </div>
+              <div class="reviews_box">
+                <h4 class="reviews_title_name">Tom Maquare</h4>
+                <span class="Join_date-date">With us from 2019</span>
+              </div>
+            </div>
+            </li>
           </ul>
-        </div>
+      </div>
+  </div>
       </section>
       <section class="orders">
         <div class="container">
           <h2 class="order_title">Order</h2>
-          <form action="action">
-            <div class="orders_email">
+          <form class="order_form" action="/">
+            <div class="order_form_wrapper">
               <input placeholder="Write your email" type="email" />
               <input value="Confirm" type="button" />
             </div>
-            <div class="order_info"></div>
             <input placeholder="Your Country" type="text" />
             <input placeholder="Your City" type="text" />
             <input placeholder="Your Adress" type="text" />
+            <button class="order_button">Order my nike</button>
           </form>
-          <button class="order_button">Order my nike</button>
-        </div>
       </section>
     </main>
     <footer class="footer">
