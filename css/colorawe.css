@@ -1,29 +1,37 @@
 .colorawe {
-    background: url(../images/colorawe-bg.png) no-repeat;
+  background: url(../images/colorawe-bg.png) no-repeat;
 }
 .name {
-    color: white;
+  color: white;
 }
 .nike-dr {
-    color: #FFF;
-    font-family: Playfair Display;
-    font-size: 72px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  color: #fff;
+  font-family: Playfair Display;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 .descr-info {
-    color: #FFF;
-    font-family: Roboto;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 .buy-btn {
-    width: 254px;
-    height: 67px;
-    border-radius: 10px;
-    background: #8E32C6;
-    
+  width: 254px;
+  height: 67px;
+  border-radius: 10px;
+  background: #8e32c6;
+  border: none;
+}
+.buy-btn {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }

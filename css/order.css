@@ -1,6 +1,7 @@
 .orders {
   background: url(../images/background-ord.png) center/cover no-repeat;
   padding: 21px 0 37px;
+  margin: 0;
 }
 .order_form_wrapper {
   width: 690px;
