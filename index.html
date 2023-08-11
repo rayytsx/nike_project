@@ -12,9 +12,9 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header class="header">
@@ -22,7 +22,7 @@
         <div class="header_logo">
           <img src="./images/nike_logo.svg" alt="Nike" />
         </div>
-        <nav>
+        <nav class="navigation-menu">
           <ul class="menu">
             <li class="nav_menu">
               <a class="menu_link" href="/">Main page</a>
@@ -31,7 +31,9 @@
             <li class="nav_menu">
               <a class="menu_link" href="/">Advantages</a>
             </li>
-            <li class="nav_menu"><a class="menu_link" href="/">Reviews</a></li>
+            <li class="nav_menu">
+              <a class="menu_link" href="#reviews">Reviews</a>
+            </li>
             <li class="nav_menu"><a class="menu_link" href="/">Contacts</a></li>
             <li class="nav_menu"><a class="menu_link" href="/">Order</a></li>
           </ul>
@@ -48,8 +50,8 @@
       <section class="colorawe">
         <div class="container">
           <div class="colorawe_logo">
-            <img src="./images/nike_logo.svg" alt="nike" />
-            С&R
+            <img src="./images/nike_logo.svg" alt="nike"/>
+            <h2 class="initials_nike">С&R</h2>
           </div>
           <h1 class="name">ColoRawe</h1>
           <h2 class="nike-dr">Your dream Nike</h2>
@@ -61,7 +63,6 @@
           <button class="buy-btn">Buy my Nike</button>
         </div>
       </section>
-      <section class="advantages"></section>
       <section class="advantages">
         <div class="container">
           <ul class="advantages_list">
@@ -76,7 +77,7 @@
                 alt="Premium Quality"
               />
             </li>
-            <li class="advanatages_item">
+            <li class="advantages_item">
               <img
                 class="advantages_item_img"
                 src="./images/paints.png"
@@ -88,7 +89,7 @@
               </h2>
             </li>
             <li class="advantages_item">
-              <h2 class="advanatges_item_title">
+              <h2 class="advantages_item_title">
                 Fast <br />
                 shipping
               </h2>
@@ -102,7 +103,7 @@
         </div>
       </section>
       <hr />
-      <section class="reviews" id="reviews">
+      <section class="review" id="reviews">
         <div class="reviews_bg">
           <div class="container">
             <h2 class="reviews_title">Reviews</h2>
@@ -173,7 +174,7 @@
             <button class="order_button">Order my nike</button>
           </form>
         </div>
-      </section>gi
+      </section>
     </main>
     <footer class="footer">
       <div class="container">
@@ -188,5 +189,9 @@
         </div>
       </div>
     </footer>
+    <script src="./js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+     </script>     
   </body>
 </html>
