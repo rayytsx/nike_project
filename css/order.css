@@ -30,6 +30,8 @@
   font-weight: 400;
   line-height: normal;
   border: none;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0);
 }
 .order_form input[type="text"] {
   width: 580px;

@@ -12,7 +12,7 @@
 }
 .reviews_list {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   justify-items: center;
 }
 .reviews_title {

@@ -38,10 +38,8 @@
             <li class="nav_menu"><a class="menu_link" href="/">Order</a></li>
           </ul>
           <div class="languange_nav_menu">
-            <ul>
-              <li class="languange_nav_menu">Ua</li>
-              <li class="languange_nav_menu">Eng</li>
-            </ul>
+           <a class="header_languange_link" href="./colorawe-ukr.html">Ua</a>
+           <a class="header_languange_link" href="/">Eng</a>
           </div>
         </nav>
       </div>
@@ -50,14 +48,14 @@
       <section class="colorawe">
         <div class="container">
           <div class="colorawe_logo">
-            <img src="./images/nike_logo.svg" alt="nike"/>
+            <img src="./images/nike_logo.svg" alt="nike" />
             <h2 class="initials_nike">С&R</h2>
           </div>
           <h1 class="name">ColoRawe</h1>
           <h2 class="nike-dr">Your dream Nike</h2>
           <p class="descr-info">
             On this site you can find custom Nike sneakers of your dreams. The
-            original company can`t create such beautiful sneakers as we do. Good
+            original company can`t create such beautiful sneakers as we do. <br> Good
             luck finding your way in the world of custom sneakers.
           </p>
           <button class="buy-btn">Buy my Nike</button>
@@ -160,6 +158,7 @@
           </div>
         </div>
       </section>
+      <hr />
       <section class="orders">
         <div class="container">
           <h2 class="order_title">Order</h2>
@@ -171,18 +170,37 @@
             <input placeholder="Your Country" type="text" />
             <input placeholder="Your City" type="text" />
             <input placeholder="Your Adress" type="text" />
-            <button class="order_button">Order my nike</button>
+            <button class="order_btn">Order my nike</button>
           </form>
         </div>
       </section>
     </main>
     <footer class="footer">
       <div class="container">
-        <div class="questions">
-          <h3 class="question_text">Have a question?</h3>
-          <h3 class="question_text">Have a proposal for cooperation?</h3>
-          <h3 class="question_text">Advertising questions?</h3>
-        </div>
+        <table>
+          <tr class="footer_questions">
+            <th class="footer_question">Have a quastion?</th>
+            <th class="footer_question">Have a proposal for cooperation?</th>
+            <th class="footer_question">Advertising questions?</th>
+          </tr>
+          <tr class="footer_support">
+            <th class="footer_answer">
+              <a class="footer_email_link" href="mailto:colorawe_cooperation@gmail.com"
+                >ColoRawe_support@gmail.com</a
+              >
+            </th>
+            <th class="footer_answer">
+              <a class="footer_item_link" href="/"
+                >ColoRawe_Cooperation@gmail.com</a
+              >
+            </th>
+            <th class="footer_answer">
+              <a class="footer_item_link" href="/"
+                >ColoRawe_Advertising@gmail.com</a
+              >
+            </th>
+          </tr>
+        </table>
         <div class="copyright">
           <h4>2022 ColoRawe @All rights reserved</h4>
           <h4>United States</h4>
@@ -192,6 +210,6 @@
     <script src="./js/wow.min.js"></script>
     <script>
       new WOW().init();
-     </script>     
+    </script>
   </body>
 </html>

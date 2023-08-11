@@ -16,6 +16,8 @@
   margin: 0;
 }
 .colorawe_logo {
+    width: 178px;
+    height: 86px;
     position: relative;
 }
 .nike-dr {
@@ -35,6 +37,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  width: 508px;
 }
 .buy-btn {
   width: 254px;
@@ -51,8 +54,6 @@
   margin-top: 40px;
 }
 .initials_nike {
-  width: 178px;
-  height: 86px;
   color: #fff;
   font-family: PT Serif;
   font-size: 48px;
@@ -61,6 +62,6 @@
   line-height: normal;
   position: absolute;
   left: 20px;
-  bottom: -21px;
+  bottom: -19px;
   margin: 0;
 }

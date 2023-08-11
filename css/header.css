@@ -54,3 +54,18 @@
   gap: 72px;
   align-items: center;
 }
+.header_languange_link {
+  color: #C7C7C7;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+}
+.languange_nav_menu {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
