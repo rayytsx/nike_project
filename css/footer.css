@@ -2,6 +2,84 @@
   background: #021635;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 292px;
   padding: 45px 0  24px 0;
+}
+
+.footer_question {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer_email_link {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.footer_table tbody {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer_table tr {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.footer_table {
+  width: 100%;
+}
+
+.footer_copywrite_rights {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer_part_line {
+  width: 100%;
+  border: 1px solid #9B9B9B;
+  margin-top: 20px;
+  margin-bottom: 24px;
+}
+
+.footer_logo_p {
+  color: #FFF;
+  font-family: PT Serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  position: absolute;
+  bottom: -39px;
+  right: 29px;
+}
+
+.footer_logo {
+  position: relative;
+}
+
+.footer_block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer_icon {
+  height: 81px;
 }

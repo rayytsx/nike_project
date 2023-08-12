@@ -24,6 +24,9 @@
     border-right: 1px solid #FFF;
     height: 346px;
     padding: 7px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .advantages_item:last-child {

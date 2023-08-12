@@ -13,12 +13,31 @@
   .container {
       width: 960px;
   }
+  .header_logo {
+    width: 85px;
+  }
+  .header_menu {
+    gap: 45px;
+  }
+  .header_link {
+    font-size: 17px;
+  }
+  .languange_nav_menu {
+    width: 60px;
+  }
+  .advantages_item_title {
+    font-size: 30px;
+  }
+  .advantages_item_img {
+    width: 190px;
+  }
 }
 
 @media(max-width: 768px) {
   .container {
       width: 720px;
   }
+
 }
 
 @media(max-width: 576px) {
