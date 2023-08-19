@@ -113,6 +113,28 @@
   .footer_copywrite_rights {
     font-size: 14px;
   }
+  .advantages_list {
+    border: none;
+    flex-wrap: wrap;
+  }
+  .advantages_item {
+    border: 5px solid;
+    color: #8e32c6;
+    width: 207px;
+    padding: 25px 0 0 0;
+    position: relative;
+  }
+  .advantages_item_img {
+    width: 240px;
+    position: absolute;
+    bottom: 0;
+  }
+  .advantages_item_title {
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    transform: translate(-50%);
+  }
 }
 
 @media (max-width: 576px) {
