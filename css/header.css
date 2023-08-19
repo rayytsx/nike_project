@@ -74,12 +74,7 @@
   align-items: center;
 }
 .hamburger {
-  display: block;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  height: 16px;
-  right: 10px;
+  display: none;
 }
 .hamburger span {
   display: none;
@@ -100,4 +95,11 @@
 .hamburger span:nth-child(3) {
   width: 18px;
   height: 5px;
+}
+.hamburger {
+  height: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
 }
