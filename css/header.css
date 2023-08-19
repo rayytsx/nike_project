@@ -74,15 +74,13 @@
   align-items: center;
 }
 .hamburger {
-  display: none;
+  display: block;
 }
 .hamburger span {
-  display: none;
   border-radius: 1px;
   background: #8e32c6;
-  border-radius: 4px;
-  margin-bottom: 5px;
-  transition: 0.5s;
+  display: block;
+  height: 5px;
 }
 .hamburger span:nth-child(1) {
   width: 45px;
