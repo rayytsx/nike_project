@@ -113,9 +113,16 @@
   .footer_copywrite_rights {
     font-size: 14px;
   }
+  .advantages {
+    height: 1000px;
+  }
   .advantages_list {
     border: none;
+    gap: 80px;
     flex-wrap: wrap;
+  }
+  .advantages_item:last-child {
+    border: 5px solid;
   }
   .advantages_item {
     border: 5px solid;
@@ -128,6 +135,7 @@
     width: 240px;
     position: absolute;
     bottom: 0;
+    left: -25px;
   }
   .advantages_item_title {
     position: absolute;
