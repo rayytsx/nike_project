@@ -74,30 +74,5 @@
   align-items: center;
 }
 .hamburger {
-  display: block;
-}
-.hamburger span {
-  border-radius: 1px;
-  background: #8e32c6;
-  display: block;
-  height: 5px;
-}
-.hamburger span:nth-child(1) {
-  width: 45px;
-  height: 5px;
-}
-.hamburger span:nth-child(2) {
-  width: 33px;
-  height: 5px;
-}
-.hamburger span:nth-child(3) {
-  width: 18px;
-  height: 5px;
-}
-.hamburger {
-  height: 25px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 4px;
+  display: none;
 }
