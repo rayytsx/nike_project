@@ -40,8 +40,15 @@
   .container {
     width: 720px;
   }
+  .header_logo {
+    display: none;
+  }
   .hamburger {
     display: block;
+    position: absolute;
+    position: absolute;
+    top: 33px;
+    right: 5px;
   }
   .hamburger {
     height: 25px;
@@ -120,6 +127,7 @@
     border: none;
     gap: 80px;
     flex-wrap: wrap;
+    flex-direction: row;
   }
   .advantages_item:last-child {
     border: 5px solid;
